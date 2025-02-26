@@ -7,6 +7,12 @@
 
 ## Demo
 
+### How to set api key
+
+https://youtu.be/bM8OuoS8Y8Y
+
+### Usage
+
 https://youtu.be/SOklYRP_E9A
 
 ## To Do
