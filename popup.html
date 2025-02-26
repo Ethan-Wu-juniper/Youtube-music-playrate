@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube API Key 設置</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 18px;
+            color: #cc0000;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #cc0000;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #990000;
+        }
+        .info {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        a {
+            color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube API Key 設置</h1>
+    <input type="text" id="apiKey" placeholder="請輸入您的 YouTube API Key">
+    <button id="saveButton">保存</button>
+    <p class="info">
+        需要幫助？請查看 
+        <a href="https://yt.lemnoslife.com/#Table_of_contents" target="_blank">YouTube API 操作指南</a>
+        來了解如何獲取和使用 API Key。
+    </p>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Music Speed Normalizer",
+    "version": "1.0",
+    "description": "Sets playback speed to 2x for music videos on YouTube autoplay",
+    "permissions": [
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "*://www.youtube.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
